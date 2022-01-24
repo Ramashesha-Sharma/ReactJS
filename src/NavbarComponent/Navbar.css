@@ -1,0 +1,9 @@
+.navLink:hover{
+    background-color: white;
+    border: 4px solid pink;
+    border-radius: 10px;
+}
+.navLink{
+        position: relative;
+        left:500px;
+}
