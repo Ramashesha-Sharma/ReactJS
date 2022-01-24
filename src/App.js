@@ -10,6 +10,7 @@ import Footer from './FooterComponent/Footer';
 import UpdateStudent from './ShowStudComponent/UpdateStudent';
 import { SearchStudent } from './ShowStudComponent/SearchStudent';
 import Search from './ShowStudComponent/Search';
+import HomePage from './ShowStudComponent/HomePage';
 function App() {
   /* let deleteStud=()=>{
     studImpl.deleteStudent(100);
@@ -28,6 +29,7 @@ function App() {
       </header>
 
       <Routes>
+      <Route path="/" element={<HomePage/>}></Route>
         <Route path="/students/showall" element={<ShowStudents/>}></Route>
         <Route path="/students/delete/:id" element={<DeleteStudent/>}></Route>
         <Route path="/students/add" element={<AddStudent/>}></Route>
